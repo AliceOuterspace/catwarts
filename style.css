@@ -84,10 +84,10 @@ h1 {
 }
 
 .title {
-    font-size: 300%;
-    white-space:nowrap;
+    font-size: 500%;
+    white-space:pre-wrap;
     flex: 5;
-    align-self:self-start;
+    align-self:center;
 }
 
 .main_context {
@@ -114,9 +114,6 @@ h1 {
     font-family: OCR A Std, monospace;
     text-align: center;
     flex: 3;
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
 }
 
 .board_container {
@@ -127,6 +124,9 @@ h1 {
     border-radius: .9em;
     text-align:start;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
 }
 
 .news {
@@ -138,7 +138,7 @@ h1 {
     margin: 0;
 }
 
-.deanGroup {
+.profGroup {
     padding: 1%;
     border-style: hidden;
     border-radius: .9em;
