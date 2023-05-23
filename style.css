@@ -1,0 +1,278 @@
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding:0;
+    border: 0;
+    overflow:auto;
+    display: block;
+}
+
+img {
+    width: 30px;
+    height: auto;
+}
+
+p,
+ol {
+    overflow-wrap: break-all;
+    color: white;
+}
+
+h1 {
+    white-space: nowrap;
+}
+
+.header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+
+.heading {
+    margin:0;
+    padding:0;
+    height: 500px;
+    width: 100vw;
+    font-weight:bold;
+    font-family: OCR A Std, monospace;
+    color: aliceblue;
+    font-size: 100%;
+    text-align: center;
+    background-color: black;
+    background-image: url(./img/candles.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content:space-evenly;
+    align-items: stretch;
+}
+
+
+.leftIcon {
+    margin-bottom: -1.5em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 5em;
+}
+   
+.login {
+    align-self:self-end;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    white-space: nowrap;
+    font-size: 100%;
+    flex: 1;
+}
+
+#title_cat {
+    margin-bottom: -2%;
+    align-self:flex-end;
+    width: 150px;
+    flex: 1;
+}
+
+.title {
+    font-size: 300%;
+    white-space:nowrap;
+    flex: 5;
+    align-self:self-start;
+}
+
+.main_context {
+    flex:5;
+    border:0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 25px;
+}
+
+
+.board {
+    background-color: rgb(204, 176, 176);
+    color: white;
+    border-radius: .9em;
+    border:hidden;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 1000px;
+    font-family: OCR A Std, monospace;
+    text-align: center;
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.board_container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(141, 186, 236, 0.5);
+    border-radius: .9em;
+    text-align:start;
+    display: flex;
+}
+
+.news {
+    background-color: rgba(82, 141, 75, 0.5);
+    color: white;
+    border-radius: .9em;
+    padding: 30px;
+    border:0;
+    margin: 0;
+}
+
+.deanGroup {
+    padding: 1%;
+    border-style: hidden;
+    border-radius: .9em;
+    margin: 10px;
+    text-align: center;
+    align-items: stretch;
+    display: flex;
+    justify-content: stretch;
+    gap: 20px;
+}
+
+.lastPart {
+    margin:0;
+    padding:0;
+    background-color: white;
+    color:black;
+    height: 100vw;
+    font-family: OCR A Std, monospace;
+    flex: 5;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: -50px;
+}
+
+.members {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-items:stretch;
+}
+
+.member_title {
+    background-color: rgb(248, 235, 164,  0.5);
+    border-style: dotted;
+    border-radius: 0.6em;
+    padding: 10px;
+    flex:1;
+    align-self:center;
+    text-align: center;
+}
+
+.pic_section {
+    flex: 380;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+    gap: 50px;
+
+}
+
+.member_pic {
+    flex: 2;
+    margin: -3em;
+}
+
+.member_intro {
+    flex: 5;
+}
+
+.sub_title {
+    flex: 1;
+}
+.sub_discrp {
+    flex: 3;
+}
+
+.member_intro {
+    background-color: rgba(196, 144, 142, 0.5);
+    align-self: flex-end;
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 0.68em;
+}
+
+.member_pic {
+    align-self: flex-start;
+}
+
+.news {
+    padding: 50px;
+    flex: 5;
+    color: black;
+    border: 6px dotted yellow;
+}
+
+.news_title{
+    color: white;
+    text-align: center;
+    font-size: 5em;
+}
+
+.news_items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.news_single {
+    border: 6px dotted yellow;
+    width: 200px;
+    height: auto;
+    overflow: auto;
+    border-radius: 0.68em;
+    text-align: center;
+    text-decoration: solid;
+    padding: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.footer_pic {
+    flex: 15;
+    align-self: flex-end;
+    margin: -3.5em;
+}
+
+.footer_text {
+    color:white; 
+    text-align: center; 
+    flex: 1;
+    align-self: center;
+}
